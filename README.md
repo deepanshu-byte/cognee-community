@@ -107,6 +107,12 @@ poetry run python ./examples/example.py
 | `cognee-community-hybrid-adapter-duckdb`     | Hybrid   | DuckDB hybrid database adapter for cognee          |
 | `cognee-community-hybrid-adapter-falkor`     | Hybrid   | FalkorDB hybrid database adapter for cognee        |
 
+## Data-source connectors
+
+The [Hugging Face connector](packages/connector/huggingface/README.md) ingests
+model/dataset/Space cards and discussion threads as Cognee documents, with
+incremental updates and guarded deletion reconciliation.
+
 ## Custom Packages
 
 Custom packages are also a part of this repo, containing, for example, custom pipelines, tasks, and retrievers.
